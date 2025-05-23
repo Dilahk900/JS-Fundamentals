@@ -1,4 +1,4 @@
-let number_of_argument = 0;
+let number_of_argument = process.argv.length - 2;
 
 if(number_of_argument == 0){
     console.log('No argument');
