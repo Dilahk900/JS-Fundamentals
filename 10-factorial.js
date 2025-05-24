@@ -10,11 +10,10 @@ function fact(){
         for(let i = 1; i <= num[0]; i++){
         sum = sum * i;
         }
-        result = sum.toString();
         
-    } else result = 'No argument';
+    } else sum = 1;
 
-    return(result);
+    return(sum);
 }
 
 
